@@ -12,7 +12,7 @@ class Circle implements Shape{
         this.radius = _radius;
     }
 
-    public double calculateArea(){return Math.PI * radius * radius};
+    public double calculateArea(){return Math.PI * radius * radius;}
 }
 
 
@@ -24,7 +24,7 @@ class Rectangle implements Shape{
         this.width = _width;
     }
 
-    public double calculateArea(){return length * width};
+    public double calculateArea(){return length * width;}
 }
 
 
