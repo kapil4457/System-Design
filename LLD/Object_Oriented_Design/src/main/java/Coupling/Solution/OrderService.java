@@ -4,7 +4,7 @@ package Coupling.Solution;
 // flexible to use any or be adaptable to any other implementation of the same functionality group
 public class OrderService {
 
-    private NotificationSender notificationSender;
+    private final NotificationSender notificationSender;
 
     public OrderService(NotificationSender _notificationSender){
         this.notificationSender = _notificationSender;
